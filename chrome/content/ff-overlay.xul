@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://myfirstext/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://myfirstext/locale/overlay.dtd">
+<overlay id="myfirstext-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="ff-overlay.js"/>
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="myfirstext-strings" src="chrome://myfirstext/locale/overlay.properties"/>
+  </stringbundleset>
+
+   <menupopup id="taskPopup">
+    <menuitem id="myfirstext-hello" label="&myfirstext.label;"
+              oncommand="myfirstext.onMenuItemCommand(event);"/>
+  </menupopup>
+
+  <menupopup id="appmenu_taskPopup">
+   <menuitem id="myfirstext-hello2" label="&myfirstext.label;"
+              oncommand="myfirstext.onMenuItemCommand(event);"/>
+  </menupopup>
+</overlay>

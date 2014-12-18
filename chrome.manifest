@@ -1,0 +1,5 @@
+content   myfirstext                 chrome/content/
+skin      myfirstext   classic/1.0   chrome/skin/
+locale    myfirstext   en-US         chrome/locale/en-US/
+
+overlay chrome://messenger/content/mailWindowOverlay.xul	chrome://myfirstext/content/ff-overlay.xul

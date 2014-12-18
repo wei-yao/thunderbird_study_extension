@@ -1,0 +1,8 @@
+<!ENTITY myfirstext.label "yaoge">
+<!ENTITY myfirstextContext.label "Your Menuitem">
+<!ENTITY myfirstextContext.accesskey "Y">
+<!ENTITY myfirstextToolbarButton.label "Your Toolbar Button">
+<!ENTITY myfirstextToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY myfirstextSidebar.label "Your Sidebar">
+<!ENTITY myfirstextToolbar.name  "example">
+<!ENTITY myfirstextToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &myfirstextToolbar.name;">
