@@ -10,25 +10,13 @@
  <menubar id="mail-menubar">
     <menu id="menu_Enigmail"
           label="&myfirstext.label;"
-		  accesskey="l"
+		  oncommand="myfirstext.onMenuItemCommand(event);"
           insertbefore="tasksMenu" />
   </menubar>
   
   <menu id="menu_Enigmail">
 
     <menupopup id="menu_EnigmailPopup">
-
-      <menuitem id="enigmail_decryptverify"
-           label="1"
-           accesskey="2"
-           advanced="true"
-           hidden="false"
-           oncommand="myfirstext.onMenuItemCommand(event); />
-
-      <menuitem id="enigmail_savedecrypted"
-           label="2;"
-           accesskey="2"
-           oncommand="myfirstext.onMenuItemCommand(event); />
 
     </menupopup>
   </menu>
