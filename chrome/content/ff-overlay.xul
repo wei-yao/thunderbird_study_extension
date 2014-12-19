@@ -10,15 +10,17 @@
  <menubar id="mail-menubar">
     <menu id="menu_Enigmail"
           label="&myfirstext.label;"
-		  oncommand="myfirstext.onMenuItemCommand(event);"
           insertbefore="tasksMenu" />
   </menubar>
   
   <menu id="menu_Enigmail">
 
-    <menupopup id="menu_EnigmailPopup">
-
-    </menupopup>
+    <menupopup id="taskPopup">
+    <menuitem id="myfirstext-hello" label="&myfirstext.label;"
+              oncommand="myfirstext.onMenuItemCommand(event);"/>
+	<menuitem id="myfirstext-hello" label="&myfirstext.label;"
+              oncommand="myfirstext.onMenuItemCommand(event);"/>
+  </menupopup>
   </menu>
 
 </overlay>
