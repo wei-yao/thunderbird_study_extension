@@ -39,7 +39,7 @@
               />
   </toolbarpalette>
   <toolbar id="mail-bar3"
-          defaultset="button-getmsg,button-newmsg,button-chat,button-address,spacer,button-toolbar-encrypt,button-toolbar-decrypt,button-tag,qfb-show-filter-bar,spring,gloda-search,button-appmenu">
+          defaultset="button-getmsg,button-newmsg,button-chat,button-address,spacer,button-toolbar-encrypt,button-toolbar-decrypt,button-tag,button-enigmail-decrypt,qfb-show-filter-bar,spring,gloda-search,button-appmenu">
   </toolbar>
  
 </overlay>
