@@ -22,5 +22,23 @@
               oncommand="myfirstext.onMenuItemCommand(event,id);"/>
   </menupopup>
   </menu>
-
+ <toolbar id="mail-bar3">
+   <toolbarbutton xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+   id="button-test" 
+   class="toolbarbutton-1" 
+   label="test" 
+   tooltiptext="第一个工具栏" 
+   oncommand="myfirstext.onMenuItemCommand(event,id);"
+   removable="true"/>
+   <toolbarbutton xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" class="toolbarbutton-1" 
+   id="button-enigmail-decrypt" 
+   label="解密" 
+   tooltiptext="使用 Enigmail 解密或校验邮件" 
+   oncommand="myfirstext.onMenuItemCommand(event,id);"
+   buttontype="thunderbird"
+   observes="button_enigmail_decrypt" 
+   insertafter="button-newmsg" 
+   removable="true"/>
+  </toolbar>
+ 
 </overlay>
