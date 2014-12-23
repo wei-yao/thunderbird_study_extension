@@ -16,10 +16,10 @@
   <menu id="menu_Enigmail">
 
     <menupopup id="taskPopup">
-    <menuitem id="myfirstext-hello" label="&myfirstext.label;"
-              oncommand="myfirstext.onMenuItemCommand(event);"/>
-	<menuitem id="myfirstext-hello" label="&myfirstext.label;"
-              oncommand="myfirstext.onMenuItemCommand(event);"/>
+    <menuitem id="first" label="&myfirstext.label;"
+              oncommand="myfirstext.onMenuItemCommand(event,id);"/>
+	<menuitem id="second" label="&myfirstext.label;"
+              oncommand="myfirstext.onMenuItemCommand(event,id);"/>
   </menupopup>
   </menu>
 
