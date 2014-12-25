@@ -3,6 +3,7 @@
 <!DOCTYPE overlay SYSTEM "chrome://myfirstext/locale/overlay.dtd">
 <overlay id="testComposeOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
   <script src="ff-overlay.js"/>
+    <script src="msg_compose.js"/>
   <stringbundleset id="stringbundleset">
     <stringbundle id="myfirstext-strings" src="chrome://myfirstext/locale/overlay.properties"/>
   </stringbundleset>
@@ -21,7 +22,7 @@
      <menupopup >     
               <menuitem id="enigmail_test_encryptDefault3b"
                   label="加密"
-                  oncommand="myfirstext.onMenuItemCommand(event,id);" />
+                  oncommand="msgCompose.send_event_handler();" />
               <menuitem id="enigmail_test_encryptYes3b"
                   label="解密"
                   oncommand="myfirstext.onMenuItemCommand(event,id);" />
@@ -32,7 +33,7 @@
 
   <!-- Thunderbird & Spicebird -->
   <toolbar id="composeToolbar2"
-           defaultset="button-send,separator,button-address,spellingButton,button-myfirtst-composebutton,button-attach,button-security,button-save">
+           defaultset="button-send,separator,button-address,spellingButton,button-myfirtst-composebutton,button-enigmail-send,button-attach,button-security,button-save">
   </toolbar>
 
 </overlay>

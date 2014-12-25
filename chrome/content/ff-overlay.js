@@ -12,6 +12,7 @@ var myfirstext = {
                                this.strings.getString("helloMessage"));
   //  promptService.alert(window, '1',
   //                              this.strings.getString("helloMessage"));
+ 
   },
 
   onToolbarButtonCommand: function(e) {
