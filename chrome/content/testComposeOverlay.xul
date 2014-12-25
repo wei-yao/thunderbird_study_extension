@@ -11,14 +11,14 @@
   <toolbarpalette id="MsgComposeToolbarPalette">
    <!-- for compatibility reasons (themes) the button name is unchanged and doesn't match the action(s) -->
     <toolbarbutton class="toolbarbutton-1"
+			xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
             id="button-myfirtst-composeButton"
             type="menu-button"
             label="ÒþÐ´"
             buttontype="thunderbird"
-            tooltip="aTooltipSet"
             tooltiptext="ÒþÐ´²Ù×÷">
 
-        <menupopup >     
+ <!--       <menupopup >     
               <menuitem id="enigmail_test_encryptDefault3b"
                   label="¼ÓÃÜ"
                   oncommand="myfirstext.onMenuItemCommand(event,id);" />
@@ -26,12 +26,14 @@
                   label="½âÃÜ"
                   oncommand="myfirstext.onMenuItemCommand(event,id);" />
         </menupopup>
+		-->
     </toolbarbutton>
+	
   </toolbarpalette>
 
   <!-- Thunderbird & Spicebird -->
   <toolbar id="composeToolbar2"
-           defaultset="button-send,separator,button-address,spellingButton,button-myfirtst-composeButton,button-attach,button-enigmail-send,button-security,button-save">
+           defaultset="button-send,separator,button-address,spellingButton,button-myfirtst-composeButton,button-attach,button-security,button-save">
   </toolbar>
 
 </overlay>
