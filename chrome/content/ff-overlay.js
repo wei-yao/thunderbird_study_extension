@@ -35,5 +35,5 @@ myfirstext.showFirefoxContextMenu = function(event) {
   // show or hide the menuitem based on what the context menu is on
   document.getElementById("context-myfirstext").hidden = gContextMenu.onImage;
 };
-
+function foo () {},
 window.addEventListener("load", function () { myfirstext.onFirefoxLoad(); }, false);

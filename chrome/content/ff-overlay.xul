@@ -2,8 +2,8 @@
 <?xml-stylesheet href="chrome://myfirstext/skin/overlay.css" type="text/css"?>
 <!DOCTYPE overlay SYSTEM "chrome://myfirstext/locale/overlay.dtd">
 <overlay id="myfirstext-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <script src="ff-overlay.js"/>
-  <script src="msg_compose.js"/>
+<script type="application/x-javascript"  src="chrome://myfirstext/content/ff-overlay.js"/>
+<script type="application/x-javascript"  src="chrome://myfirstext/content/msg_compose.js"/>
   <stringbundleset id="stringbundleset">
     <stringbundle id="myfirstext-strings" src="chrome://myfirstext/locale/overlay.properties"/>
   </stringbundleset>
